@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Stock Management</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            padding-top: 56px; /* Adjusted for fixed navbar */
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .logout-button {
+            background-color: wheat;
+            color: #000;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .logout-button:hover {
+            background-color: #000;
+            color: #ffd700;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Stock Management System</a>
+    </nav>
+    <h1 style="color: #151716;font-style: italic;">WELCOME TO STOCK MANAGER</h1>
+    <div class="container">
+        <p>
+            Stock management is a critical aspect of any business, ensuring the efficient handling of inventory to meet customer demand. It involves monitoring stock levels, ordering new items, and keeping track of product movement. Effective stock management minimizes the risk of overstocking or running out of essential products, optimizing the balance between supply and demand. Utilizing modern tools and technologies, businesses can streamline the stock management process, enhance accuracy, and reduce costs. This strategic approach not only improves customer satisfaction by ensuring product availability but also contributes to overall business profitability.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://www.thestatesman.com/wp-content/uploads/2022/08/iStock-900144946.jpg" alt="Image 1">
+            </div>
+            <div class="col-md-6">
+                <img src="https://www.cioandleader.com/sites/default/files/styles/article_image/public/Stock%20Market.jpg?itok=f72_1seh" alt="Image 2">
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button class="logout-button" onclick="window.location.href='login'">Login</button>
+        <button class="logout-button" onclick="window.location.href='signup'">Sign Up</button>
+        <button class="logout-button" onclick="window.location.href='adminp'">Admin</button>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Stock Management</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .logout-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .logout-button:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            margin-top: 50px;
+            text-align: center; /* Center align content */
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        h1 {
+            color: #333;
+            font-style: italic;
+            text-align: center; /* Center align "Welcome to Stock Management" */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Stock Management System</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to Stock Management</h1>
+        <div class="button-container">
+            <button class="logout-button" onclick="window.location.href='login'">Login</button>
+            <button class="logout-button" onclick="window.location.href='signup'">Sign Up</button>
+            <button class="logout-button" onclick="window.location.href='login,is_admin=1'">Admin</button>
+        </div>
+        <div class="container">
+            <p>
+                Stock management is a critical aspect of any business, ensuring the efficient handling of inventory to meet customer demand. It involves monitoring stock levels, ordering new items, and keeping track of product movement. Effective stock management minimizes the risk of overstocking or running out of essential products, optimizing the balance between supply and demand. Utilizing modern tools and technologies, businesses can streamline the stock management process, enhance accuracy, and reduce costs. This strategic approach not only improves customer satisfaction by ensuring product availability but also contributes to overall business profitability.
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html> -->
